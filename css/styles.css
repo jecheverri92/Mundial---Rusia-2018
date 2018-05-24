@@ -1,10 +1,33 @@
 * {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  max-width: 100%; }
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%; }
 
-  ul{
-      list-style: none;
+body {
+    background-color: #ffffff;
+    color: #303030;
+    font-family: 'Open Sans', sans-serif;
+}
+
+summary {  
+    background-color: #0f4583;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 8px;
   }
+
+ul{
+    list-style: none;
+    font-size: 16px;
+}
+
+li:nth-child(even) {
+    background-color: #eeeeee;
+  }
+
+i{
+    margin: 5px;
+    padding: 2px;
+}
